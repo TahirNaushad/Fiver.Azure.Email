@@ -18,15 +18,20 @@ namespace Fiver.Azure.Email.Client
                                 .AddEnvironmentVariables();
 
             var configuration = builder.Build();
+
             var apiKey = configuration["Api_Key"];
-            
+            var subject = configuration["Email_Subject"];
+            var from = configuration["Email_From"];
+            var body = configuration["Email_Body"];
+            var to = configuration["Email_To"];
+
             // Prepare Email Message
             var message = EmailMessageBuilder
                             .Init()
-                            .AddSubject("Testing 2")
-                            .AddFrom("tahir@pscpayroll.com")
-                            .AddBody("Hello Azure SendGrid")
-                            .AddTo("naushad.t25@gmail.com")
+                            .AddSubject(subject)
+                            .AddFrom(from)
+                            .AddBody(body)
+                            .AddTo(to)
                             .Build();
 
             // Send Email Message
