@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiver.Azure.Email", "Fiver.Azure.Email\Fiver.Azure.Email.csproj", "{F7F29BFD-3F9E-4233-8B85-85D072A6ED34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiver.Azure.Email.Client", "Fiver.Azure.Email.Client\Fiver.Azure.Email.Client.csproj", "{D8CC27EE-1A2F-40C5-AFEE-10C2E9A9B26D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F7F29BFD-3F9E-4233-8B85-85D072A6ED34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F29BFD-3F9E-4233-8B85-85D072A6ED34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F29BFD-3F9E-4233-8B85-85D072A6ED34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CC27EE-1A2F-40C5-AFEE-10C2E9A9B26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CC27EE-1A2F-40C5-AFEE-10C2E9A9B26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CC27EE-1A2F-40C5-AFEE-10C2E9A9B26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CC27EE-1A2F-40C5-AFEE-10C2E9A9B26D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
